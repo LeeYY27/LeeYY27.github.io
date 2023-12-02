@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaJam Coffee House Menu</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Want to work at JavaJam? Fill out the form below to start your application.</h2>
+            <p>
+                Want to work at JavaJam? Fill out the form below to start your application. 
+                Required fields marked with an asterisk(*)
+            </p>
+            <form action="http://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName"> *Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="myEmail"> *E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="myExperience"> *Experience:</label>
+                <textarea id="myExperience" rows="2" cols="20"></textarea>
+                <br><br>
+                <input type="submit" id="mySubmit" value="Apply Now" required>
+              </form>
+        </main>
+        <footer>
+            <small>
+                <i>
+                    Copyright &copy; 2018 JavaJam Coffee House<br>
+                    <a href="mailto:leeyy-wp23@student.tarc.edu.my">leeyy-wp23@student.tarc.edu.my</a>
+                </i>
+            </small>
+        </footer>
+    </div>
+</body>
+
+</html>
